@@ -20,7 +20,7 @@ def multiplication(a:float, b:float):
 @app.get("/division")
 def division(a:float, b:float):
     if b == 0:
-        return("cannot be divited by zero")
+        return("cannot be divided by zero")
     result = a/b
     return(result)
 
